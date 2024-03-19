@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  rails:
+    image: ruby:3.3
+    volumes:
+      - .:/usr/src
+    working_dir: /usr/src
+    tty: true
+    entrypoint: ./entrypoint.sh
+  chromium:
+    image: seleniarm/standalone-chromium
