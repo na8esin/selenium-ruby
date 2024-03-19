@@ -1,0 +1,1 @@
+rubyでselenium-webdriverが動く最小構成
